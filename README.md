@@ -22,8 +22,9 @@ python3 -m pip install --upgrade pip && \
 python3 -m pip install tabulate colorama scapy
 
 
-Notes:
 
-scapy is required only for stealth (SYN) scans. If you do not need stealth, omit it.
+OR 
+Download the requirements by run the install.sh file by giving permission by
+chmod +x install.sh
+./install.sh
 
-Running stealth scan requires root privileges. Use the scanner with sudo only when performing stealth scans and when you have permission.
